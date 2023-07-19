@@ -1,0 +1,34 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+banner: images/banner.jpg
+
+# Content
+excerpt_link: Read More
+fancybox: true
+recent_posts_limits: 5
+# Footer
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
+
+# Header links
+# Each name must correspond to the icon name of Fork Awesome
+# https://forkaweso.me/Fork-Awesome/icons/
+#links:
+#  github: https://github.com/your_github_account
+#  twitter: https://twitter.com/your_twitter_account
+#  telegram: https://t.me/your_telegram_account
