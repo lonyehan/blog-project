@@ -4,10 +4,12 @@ date: 2023-07-19 22:27:35
 tags: terminal
 ---
 
+![custom-prompt](<custom-prompt.png>)
+
 # 前言
 先前在開發者大會的影片上看到講者帥氣的終端機畫面，
 
-查詢了一下原來是 oh-my-posh 所帶來的特效!
+查詢了一下原來是 [oh-my-posh](https://ohmyposh.dev/) 所帶來的特效!
 
 本篇文章將記錄一下安裝流程，
 
@@ -15,15 +17,23 @@ tags: terminal
 
 本次環境會先針對 Windows 來進行設定，
 
-後續有空會把我的 MacBook Pro 的 Terminal 也弄得又酷又帥~~
+後續有空再把我的 MacBook Pro 的 Terminal 也弄得又酷又帥~~
 
 # 步驟
 1. 安裝 Oh-my-posh
 
     這邊我是透過 Powershell 來進行指令安裝
-    ```bash
-    winget install JanDeDobbeleer.OhMyPosh -s winget
+    
     ```
+    winget install oh-my-posh
+    ```
+
+    ![oh-my-posh-install](<oh-my-posh-install.png>)
+
+    ```bash
+    winget install oh-my-posh --id XP8K0HKJFRXGCK
+    ```
+
     待指令完成後，我們執行檔便下載完畢了~~
 
 2. 設定環境變數
